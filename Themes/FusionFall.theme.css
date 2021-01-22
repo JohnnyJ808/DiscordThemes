@@ -1,0 +1,195 @@
+/** 
+ * @name FusionFall
+ * @author JohnnyJ808
+ * @version 1
+ * @description Theme based on the Cartoon Network MMO FusionFall   |    Theme based on NFLD's template.    |    Support: https://nfld99.com/discord
+ * @source https://github.com/JohnnyJ808/DiscordThemes
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite kWRYPrq
+*/
+
+/* Sorce Code */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Animations/No.css);
+/* Fonts https://ShadowDevilsAvenged.github.io/Font_List.txt */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Fonts/No.css);
+/* Settings Dock */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Invites */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Offline/No.css);
+/* User Popout Footer */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+/* Transparency Patch */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+
+:root {
+  --Main-Colour: rgba(61,148,255,1);
+  --Background-Colour: rgba(0,0,0,1);
+  --Secondary-Background-Colour: rgba(0,0,0,.3);
+*  --Secondary-Main-Colour: rgba(155,185,228,.5);
+  --Secondary-Main-Colour: rgba(160,195,217,1);
+  --Text-Shadow-Colour: rgba(0,0,0,.35);
+  --Scroller-Colour: rgba(155,185,228,0);
+  --Notification-Colour: rgba(155,185,228,1);
+  --Chat-Input-Background: rgba(0,0,0,0);
+  --Unread-Message-1: var(--Secondary-Main-Colour);
+  --Unread-Message-2: #007FFF64;
+  --Chat-Background: url(https://i.imgur.com/iw3SPbO.jpg);
+  --Callout-Background: rgba(15,15,15, 0.90);
+  --Settings-Background: url(https://i.imgur.com/1bhwhsY.jpg); 
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: "FusionFall";
+  --Chat-Font-Used: "Tekton Pro";
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: url(https://i.imgur.com/sOFs2fP.jpg);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: rgba(75,76,76,.5);
+  --load1: "FusionFall";
+  --load2: "By JohnnyJ808";
+  --load3: "Enjoy";
+  --File-Updated-2020-5-24: ;
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: rgba(190, 211, 229, 0.9);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 10%;
+  --Background-Darkness: 0.5;
+}
+
+/* Changing Home Icon to DexLabs Logo */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;
+  background: url('https://i.imgur.com/xAn4hTy.png') 50% 50%/cover!important;
+  background-color: transparent!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
+}
+/* END */
+
+/*Categories edit */
+  .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+    border: 1px solid #a73737;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+height: 18px;
+}
+
+/* Embeds Discord Default Behavior */
+.embedFull-2tM8--{
+  background-color: rgba(46,48,54,.3)!important;
+  border-color: rgba(46,48,54,.6)!important;
+}
+
+.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl{
+  color: hsla(0,0%,100%,.6)!important;
+}
+/* END */
+
+/* Category Colors
+   Non-Collapsed */
+.name-IbjUBS{
+	color: rgba(190, 211, 229, 0.9)!important;
+}
+/* Collapsed */
+.collapsed-4WdoJ7  > .name-IbjUBS{
+	color: #4169E1C2!important;
+}
+/* END */
+
+/* Popout Context Menu */
+.theme-dark .item-1Yvehc {
+  background: rgb(0, 0, 0) !important;
+  background-color: #00236686 !important;
+  color: rgb(178, 255, 255) !important;
+}
+
+.theme-dark .item-1Yvehc:hover {
+  background: rgb(0, 0, 0) !important;
+  background-color: #002366C2 !important;
+  color: rgb(64, 224, 208)!important;
+}
+
+div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
+  background: rgb(0, 0, 0) !important;
+  background-color: rgba(42, 82, 190, 0.9) !important;
+  border: 2px solid rgba(190, 211, 229, 0.9) !important;
+}
+/* END */
+
+/* Channel Gradients */
+
+.modeUnread-1zpFdA > .content-3at_AU{
+  background: linear-gradient(to right, #00236665, #002366E0, rgba(218, 165, 32,.8))!important;
+  background-size: 150% 150%;
+}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ > .content-3at_AU{
+  background: linear-gradient(to right, #002366E0, rgba(218, 165, 32,.8))!important;
+  background-size: 50% 50%;
+}
+/*
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
+  background: green!important;
+  background-size: 100% 100%;
+}
+*/
+/* END */
+
+/* Channel Borders*/
+.containerDefault-3GGEv_ > .wrapper-CU3qI5{
+  border: 0px solid
+}
+.containerDefault-3GGEv_{
+  padding-top: 14px;
+}
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--main-colour);
+  border: 2px solid silver;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+
+.channel-2QD9_O.selected-1HYmZZ a {
+  border: 0px;
+}
+/* END */
+
+/* Change Avatar Size (also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 20px;
+}
+
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+/* END */
